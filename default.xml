@@ -28,7 +28,11 @@
   <remote name="bucket"
 	  fetch="https://bitbucket.org"
 	  revision="master" />
-
+	
+  <remote name="suda"
+          fetch="https://github.com"
+          review=".." />  
+	
   <default revision="refs/heads/cm-13.0"
            remote="github"
            sync-c="true"
